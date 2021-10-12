@@ -1,14 +1,18 @@
 package ex46;
 
-import ex45.App;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import java.io.File;
+import java.util.Scanner;
 
 class AppTest {
 
     @Test
-    void freqFinder() {
-        ex45.App app = new App();
+    void freqFinder() throws Exception {
+        App app = new App();
+        File file = new File(
+                "src/test/java/ex46/exercise46_input.txt");
+        Scanner scn = new Scanner(file);
+        app.freqFinder(scn);
     }
 }

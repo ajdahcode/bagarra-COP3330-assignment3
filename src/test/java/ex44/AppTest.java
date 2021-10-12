@@ -9,6 +9,6 @@ class AppTest {
     @Test
     void readJson() {
         App app = new App();
-        assertTrue(app.readJson("output"));
+        assertFalse(app.readJson("output"));
     }
 }

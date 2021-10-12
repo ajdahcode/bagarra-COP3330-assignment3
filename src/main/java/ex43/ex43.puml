@@ -1,0 +1,16 @@
+@startuml
+
+class createdir{
+Site
+Author
+FolderJS
+FolderCSS
+}
+
+scn <- file
+
+createdir <- scn
+
+file <- template
+
+@enduml

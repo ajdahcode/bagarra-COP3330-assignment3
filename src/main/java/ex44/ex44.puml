@@ -1,0 +1,10 @@
+@startuml
+
+class readJson{
+Inputname
+}
+
+scn <- file
+readJson <- scn
+
+@enduml

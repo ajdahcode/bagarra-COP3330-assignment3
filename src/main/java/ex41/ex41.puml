@@ -1,0 +1,13 @@
+@startuml
+
+scn <|-- file
+
+
+class readfile {
+ArrayList input
+Scan Input
+}
+
+readfile <|-- scn
+
+@enduml

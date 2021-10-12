@@ -1,0 +1,13 @@
+@startuml
+
+scn <|-- file
+
+
+class readfile {
+Scan Input
+Print out Last & First names and Salary
+}
+
+readfile <|-- scn
+
+@enduml

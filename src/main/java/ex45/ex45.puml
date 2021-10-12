@@ -1,0 +1,10 @@
+@startuml
+
+class modifytext{
+String name
+}
+scn <- file
+modifytext <- scn
+
+
+@enduml

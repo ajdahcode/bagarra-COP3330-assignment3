@@ -1,0 +1,13 @@
+@startuml
+
+class freqFinder{
+Scanner scn
+Map sortFreq
+ArrayList word
+}
+
+scn <- file
+
+freqFinder <- scn
+
+@enduml
